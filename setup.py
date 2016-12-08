@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 import re
 import sys
 setup(name='pyit',
-      version='0.0.2',
+      version='0.0.3',
       description='Helpful scripts to manage Magento and Wordpress deployments and development tasks',
       url='https://github.com/EBSCOSoftwareDev/pyit',
-      author='ADAPT',
-      author_email='adapt@ebsco.com',
+      author='Ebsco Industries',
+      author_email='PACE@ebsco.com',
       license='Apache License 2.0',
       packages=find_packages(".", exclude=["test"]),
       zip_safe=False,
