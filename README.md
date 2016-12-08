@@ -62,5 +62,6 @@ twine register -r pypitest -u ***** -p ****** --config-file ./.pypirc dist/pyit-
 ## To upload new version
 ```
 #-r is the pypi destination based on the .pypirc file
-twine upload -r pypitest -u **** -p **** --config-file ./.pypirc dist/pyit-0.0.2.tar.gz
+twine upload -r pypitest -u **** -p **** --config-file ./.pypirc dist/pyit-0.0.3.tar.gz
+twine upload -r pypitest -u **** -p **** --config-file ./.pypirc dist/pyit-0.0.3-py2-none-any.whl
 ```
